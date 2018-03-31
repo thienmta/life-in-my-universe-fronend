@@ -1,0 +1,15 @@
+#grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px 4px;
+  grid-template-rows: 4px;
+  /*grid-template-rows: repeat(4, 150px);*/
+}
+
+.planet {
+  background-color: white;
+}
+
+.space {
+  background-color: black;
+
