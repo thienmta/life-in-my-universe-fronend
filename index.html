@@ -14,7 +14,11 @@
     $(function() {
         UniverseModel.createRandomMap(100, 100);
 
-        $('body').append(UniverseModel.toHtmlString(), null);
+//        $('body').html(UniverseModel.toHtmlString(), null);
+
+        window.setInterval(function(){
+            $('body').html(UniverseModel.nextTime(), null);
+        }, 500);
     });
 </script>
 </html>
